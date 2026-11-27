@@ -1,2 +1,1 @@
-# LifeGuard AI v0.2.0 preview
-Static local-first PWA. Serve using python3 -m http.server 8781 or GitHub Pages. Run node test.js and node test-v020.js. Replace the v0.1 files on a separate branch before merging. No live reputation, OCR, QR decoding or Spanish translation yet. Heuristic classification can misread safety advice as a scam. Optional local summary history is unencrypted. Browser and offline tests remain required.
+# LifeGuard AI v0.2.0
