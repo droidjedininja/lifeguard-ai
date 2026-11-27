@@ -6,3 +6,6 @@ assert.equal(p.inspect('Never share your password').risk,'No obvious indicators'
 assert.equal(p.inspect('Never share your password').score,0);
 assert.equal(p.inspect('Send your verification code').risk,'High concern');
 console.log('PASS LG-002 risk and phishing control');
+
+assert.equal(p.inspect('Never share your password. Instead send your verification code').risk,'High concern');
+console.log('PASS mixed advice and credential request');
