@@ -1,2 +1,2 @@
-# lifeguard-ai
-A privacy-first personal protection platform designed to help individuals and families detect scams, phishing, fraud and digital threats.
+# LifeGuard AI v0.1.0
+Local-first static PWA, no backend or API key required. From this folder: `python3 -m http.server 8781 --bind 127.0.0.1` then open http://127.0.0.1:8781 on the same computer. For iPhone, deploy the folder to an HTTPS static host, open in Safari, Share > Add to Home Screen. No host is provisioned. Test with `node test.js`. Offline cache requires successful first load on HTTPS or localhost. No storage of submitted content; browser/OS behavior is outside app control. Rules are not AI and cannot certify safety. No screenshot OCR, live reputation, remote monitoring, or Trace integration. US recovery resources. Trademark not checked. Brand board is a concept; SVG is simplified production candidate.
